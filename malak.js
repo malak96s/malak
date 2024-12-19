@@ -27,5 +27,7 @@ const esempio2 = 7;
 
 console.log ( "essempio2= " + esempio2)//ok
 
-esempio2 = "Ananas"
+//esempio2 = "Ananas"
 console.log ( "essempio2= " + esempio2)//errore
+
+let variabile1 = 45
