@@ -1,3 +1,4 @@
+
 const smorfia = [
     "L'Italia", "'A piccerella", "'A jatta", "'O puorco", "'A mano", "'O ceppone", "'O vaso", "'A Maronna", "'A figliata", "'E scartellate",
     "'E fasule", "'O suricillo", "Sant'Antonio", "'O mbriaco", "'O guaglione", "'O culo", "'A disgrazia", "'O sanghe", "'A resata", "'A festa",

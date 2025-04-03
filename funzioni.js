@@ -1,14 +1,10 @@
-
 function cambiaSfondoInVerde(){
-const elementoContenitore = document.getElementById("contenitore");
- elementoContenitore.style.backgroundColor = "green";
-
+    const elementoContenitore = document.getElementById("contenitore");
+    elementoContenitore.style.backgroundColor = "green";
 }
-
-
 
 function cambiaMargine(){
     const elementoContenitore = document.getElementById("contenitore");
-     elementoContenitore.style.margin = "green";
-    
-    }
+    elementoContenitore.style.margin = "5%";
+
+}

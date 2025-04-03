@@ -1,6 +1,7 @@
+
 let colori = ["red","black","white","green","yellow","pink"];
 
-let arrayImmagini = ["cammello.jpeg","giraffa.jpeg","gufo.jpeg","falco.jpeg"];
+let arrayImmagini = ["cammello.jpeg","giraffa.jpeg","gufo.jpeg","falco.jpeg","cammello.jpeg","giraffa.jpeg","gufo.jpeg","falco.jpeg"];
 
 let contenitore = document.getElementById("contenitore");
 let vociMenu = ["Home","About","Contatti","Shop"]
@@ -55,3 +56,8 @@ for (let index = 0; index < arrayImmagini.length; index++) {
     nuovaImmagine.style.margin = "1%";
     contenitore.appendChild(nuovaImmagine);
 }
+
+
+bouihySaluta();
+bouihySaluta();
+bouihySaluta();

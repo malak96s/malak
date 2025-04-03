@@ -1,21 +1,22 @@
-// for(let y = 0; y < 100; y++){
-//     console.log("Ora il valore di y é: " + y);
-// }
+
+for(let y = 0; y < 100; y++){
+    console.log("Ora il valore di y é: " + y);
+}
 
 
-// for(let contatore = 0; contatore < 5;contatore++){
-//     console.log("Ha detto ciao per " + contatore + " volte!");
-// }
+for(let contatore = 0; contatore < 5;contatore++){
+    console.log("Ha detto ciao per " + contatore + " volte!");
+}
 
 
-// for (let index = 0; index < 20; index++) {
-//     let numeroCasualeDec = Math.random() * 100;
-//     let numeroCasualeArr = Math.floor(numeroCasualeDec);
-//     console.log(numeroCasualeArr);
+for (let index = 0; index < 20; index++) {
+    let numeroCasualeDec = Math.random() * 100;
+    let numeroCasualeArr = Math.floor(numeroCasualeDec);
+    console.log(numeroCasualeArr);
     
-// }
+}
 
-// let contenitore2 = document.getElementById("contenitore");
+let contenitore2 = document.getElementById("contenitore");
 
 
 // for (let index = 0; index < 15; index++) {
@@ -31,17 +32,15 @@
 
 
 
-console.log("test")
 
+let arrayValori = [34,76,90,2,78,89];
+let somma = 0;
 
-let arrayValori = [34,50,60,40,2,89,90]
-
-for (let i = 0; i < arrayValori.length; i++) {
-    if(arrayValori[i]==90){
-        console.log("la paura")
+for(let i = 0; i <  arrayValori.length; i++ ){
+    if(arrayValori[i] == 90){
+        console.log("la paura");
     }
-    let somma = 0;
+  
     somma = somma + arrayValori[i];
-    console.log("")
-        
+    console.log(somma);
 }
