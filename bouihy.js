@@ -32,8 +32,18 @@ function bouihyAggiungiTitolo(a){
 function bouihyAmazzonia(){
     const contenitore = document.getElementById("contenitore")
     contenitore.className = "my-class";
+}  
+
+
+
+function bouihyGrigi (){
+    document.body.className = "grigio";
+   
 }
 
+
+
+  
 
 
 

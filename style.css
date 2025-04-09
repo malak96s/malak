@@ -1,5 +1,5 @@
 .my-class {
-    background-color: green      /* Imposta il colore di sfondo a verde */
+    background-color: green;   /* Imposta il colore di sfondo a verde */
     text-align: right;            /* Allinea il testo a destra */
     padding-left: 20%;           /* Padding laterale sinistro del 20% */
     padding-right: 20%;         /* Padding laterale destro del 20% */
@@ -10,6 +10,16 @@
     .my-class {
       padding-left: 20%;         /* Padding laterale sinistro del 20% per schermi grandi */
       padding-right: 20%;       /* Padding laterale destro del 20% per schermi grandi */
+    
+    
+      
     }
+  }
+  .grigio{
+    background-color: #c8c8c8;
+    color: #252525;
+    padding: 5% 20% 5% 20%;
+    text-align: justify;
+   
   }
   
