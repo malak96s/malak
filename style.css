@@ -1,15 +1,15 @@
-body { 
-    font-family: Arial, 
-    sans-serif; 
-    text-align: center; 
-    padding: 20px; 
-}
-#numero, #significato { 
-    font-size: 24px; 
-    margin-top: 20px; 
-    margin-bottom: 2%;
-}
-button { 
-    padding: 10px 20px; 
-    font-size: 18px; 
-}
+.my-class {
+    background-color: green      /* Imposta il colore di sfondo a verde */
+    text-align: right;            /* Allinea il testo a destra */
+    padding-left: 20%;           /* Padding laterale sinistro del 20% */
+    padding-right: 20%;         /* Padding laterale destro del 20% */
+    font-style: italic;        /* Imposta il font in stile corsivo */
+  }
+  
+  @media (min-width: 1024px) {
+    .my-class {
+      padding-left: 20%;         /* Padding laterale sinistro del 20% per schermi grandi */
+      padding-right: 20%;       /* Padding laterale destro del 20% per schermi grandi */
+    }
+  }
+  
